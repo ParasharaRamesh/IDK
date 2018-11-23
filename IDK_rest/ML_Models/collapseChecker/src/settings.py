@@ -1,0 +1,10 @@
+from os.path import abspath
+EXTERNAL_DATA_1 = abspath("ML_Models/collapseChecker/data/external/data_external.csv")
+EXTERNAL_DATA_2 = abspath("ML_Models/collapseChecker/data/external/data_external_2.csv")
+INTERIM_DATA = abspath("ML_Models/collapseChecker/data/interim/data_interim.csv")
+RAW_DATA = abspath("ML_Models/collapseChecker/data/raw/data_original.csv")
+TRAIN_DATA = abspath("ML_Models/collapseChecker/data/final/train.csv")
+TEST_DATA = abspath("ML_Models/collapseChecker/data/final/test.csv")
+FINAL_VECT = abspath("IDK_rest/ML_Models/collapseChecker/models/final/final_count_vect.pkl")
+FINAL_TFIDF = abspath("IDK_rest/ML_Models/collapseChecker/models/final/final_tf_transformer.pkl")
+FINAL_MODEL = abspath("IDK_rest/ML_Models/collapseChecker/models/final/final_model.pkl")
